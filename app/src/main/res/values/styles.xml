@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionModeBackground">@android:color/white</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionModeCloseMode</item>
+    </style>
+
+    <style name="ActionModeCloseMode" parent="Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:tint">#9E9E9E</item>
+    </style>
+
+    <style name="FindInPageEditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:colorControlActivated">@color/colorCursor</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+    </style>
+</resources>
